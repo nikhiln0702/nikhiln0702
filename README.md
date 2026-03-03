@@ -72,4 +72,6 @@ Email: nikhilnnair02@gmail.com
 
 ## 🐍 Contribution Snake
 
-![snake gif](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nikhiln0702/nikhiln0702/output/github-contribution-grid-snake.svg" />
+</p>
