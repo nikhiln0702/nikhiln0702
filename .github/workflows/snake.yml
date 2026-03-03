@@ -9,15 +9,18 @@ permissions:
   contents: write
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: Platane/snk@v3
         with:
           github_user_name: nikhiln0702
-          outputs: dist/github-contribution-grid-snake.svg
+          outputs: |
+            github-contribution-grid-snake.svg
 
-      - uses: JamesIves/github-pages-deploy-action@v4
+      - name: Push to main
+        uses: EndBug/add-and-commit@v9
         with:
-          branch: output
-          folder: dist
+          add: 'github-contribution-grid-snake.svg'
+          message: 'Generate contribution snake'
