@@ -10,7 +10,6 @@ Strong interest in scalable APIs, authentication systems, payment workflows, and
 - Backend systems using Node.js & Express
 - Secure authentication (JWT, OTP flows)
 - Payment-integrated platforms (Razorpay)
-- AI-powered applications (YOLOv5, TensorFlow Lite)
 - Database-driven applications (MySQL, MongoDB)
 
 ---
@@ -25,9 +24,6 @@ Node.js, Express.js, REST APIs
 
 **Databases:**  
 MySQL, MongoDB, SQLite
-
-**AI / ML:**  
-YOLOv5, TensorFlow, TensorFlow Lite, OpenCV
 
 **Tools:**  
 Git, Sequelize, Mongoose, VS Code
